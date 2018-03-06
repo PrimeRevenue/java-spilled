@@ -1,0 +1,62 @@
+<div>
+    <h2>
+        <span>Chuck Norris Facts</span>
+        <button class="btn btn-primary float-right jh-create-entity create-chuck-norris-facts" [routerLink]="['/', { outlets: { popup: ['chuck-norris-facts-new'] } }]">
+            <span class="fa fa-plus"></span>
+            <span >
+            Create new Chuck Norris Facts
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <div class="row">
+    </div>
+    <br/>
+    <div class="table-responsive" *ngIf="chuckNorrisFacts">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+            <th><span>ID</span></th>
+            <th><span>Fact</span></th>
+            <th><span>Karatepower</span></th>
+            <th><span>Created At</span></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let chuckNorrisFacts of chuckNorrisFacts ;trackBy: trackId">
+                <td><a [routerLink]="['../chuck-norris-facts', chuckNorrisFacts.id ]">{{chuckNorrisFacts.id}}</a></td>
+                <td>{{chuckNorrisFacts.fact}}</td>
+                <td>{{chuckNorrisFacts.karatepower}}</td>
+                <td>{{chuckNorrisFacts.created_at | date:'medium'}}</td>
+                <td class="text-right">
+                    <div class="btn-group flex-btn-group-container">
+                        <button type="submit"
+                                [routerLink]="['../chuck-norris-facts', chuckNorrisFacts.id ]"
+                                class="btn btn-info btn-sm">
+                            <span class="fa fa-eye"></span>
+                            <span class="d-none d-md-inline">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'chuck-norris-facts/'+ chuckNorrisFacts.id + '/edit'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-primary btn-sm">
+                            <span class="fa fa-pencil"></span>
+                            <span class="d-none d-md-inline">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', { outlets: { popup: 'chuck-norris-facts/'+ chuckNorrisFacts.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <span class="fa fa-remove"></span>
+                            <span class="d-none d-md-inline">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

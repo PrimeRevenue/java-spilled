@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "fact",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "karatepower",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "created_at",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20180222161814",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "chuck_norris_facts",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
