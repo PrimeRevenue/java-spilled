@@ -56,6 +56,19 @@ You should see a JSON response like this:
 ]
 ```
 
+## Troubleshooting & Issues
+
+You might encouter the follow problems when setting up this project:
+
+### Issue 1
+
+#### Resolution:
+
+### Issue 2
+
+#### Resolution:
+
+
 ## Next steps
 
 Your interviewer will send you a link with the exact details on the coding exercise.
