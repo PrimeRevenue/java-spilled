@@ -8,21 +8,19 @@ You are encouraged and allowed to use Google or any other online resource for re
 
 ## How to get, build and run the project
 
-1. Install `Java 8`
-
-2. Open a terminal and get a copy of this project:
-
-     `git clone https://github.com/PrimeRevenue/java_spilled`
-
-3. From your terminal, go to the project directory:
+1. From your terminal, go to the project directory:
 
      `cd java_spilled`
 
-4. Run the following commands in that terminal
+2. Run the following commands in that terminal
 
     `./gradlew`
+    
+3. If you plan to edit the UI open up another terminal and navigate to the same java_spilled directory.  Then type the following command:
 
-## Your project should be up and running now like below:
+    `yarn start`
+
+## Your project should be up and running now like below in the first terminal:
 
 ```
 ----------------------------------------------------------
@@ -55,6 +53,14 @@ You should see a JSON response like this:
   }
 ]
 ```
+
+## Cloud9 Environment Details
+
+When running in a Cloud9 environment you can click link the produced by the application and it will open a new tab to access the running application:
+![Click Open](https://s3.amazonaws.com/uploads.hipchat.com/23379/4762553/mp65ifW3E6PaRWg/Screenshot%202018-03-07%2012.13.38.png)
+
+![Running Application](https://s3.amazonaws.com/uploads.hipchat.com/23379/4762553/GcSEzDKz4Ilh8ln/Screenshot%202018-03-07%2012.16.28.png)
+
 
 ## Next steps
 
