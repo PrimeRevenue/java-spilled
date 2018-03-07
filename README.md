@@ -56,7 +56,7 @@ You should see a JSON response like this:
 
 ## Cloud9 Environment Details
 
-When running in a Cloud9 environment you can click link the produced by the application and it will open a new tab to access the running application:
+When running in a Cloud9 environment you can click the link produced by the application and it will open a new tab to access the running application:
 ![Click Open](https://s3.amazonaws.com/uploads.hipchat.com/23379/4762553/mp65ifW3E6PaRWg/Screenshot%202018-03-07%2012.13.38.png)
 
 ![Running Application](https://s3.amazonaws.com/uploads.hipchat.com/23379/4762553/GcSEzDKz4Ilh8ln/Screenshot%202018-03-07%2012.16.28.png)
