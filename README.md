@@ -6,19 +6,17 @@ This git repo has a base API built with jHipster, http://www.jhipster.tech/. How
 
 You are encouraged and allowed to use Google or any other online resource for research and assistance during this.
 
-## How to get, build and run the project
+## How to get, build and run the project in Cloud9
 
-1. From your terminal, go to the project directory:
+1. Log in to Cloud9 via the link provided in the "Hands-on coding exercise invitation" email
+
+2. From the Cloud9 terminal window, go to the project directory:
 
      `cd java_spilled`
 
-2. Run the following commands in that terminal
+3. Run the following commands in that terminal
 
     `./gradlew`
-    
-3. If you plan to edit the UI open up another terminal and navigate to the same java_spilled directory.  Then type the following command:
-
-    `yarn start`
 
 ## Your project should be up and running now like below in the first terminal:
 
@@ -31,7 +29,11 @@ You are encouraged and allowed to use Google or any other online resource for re
 ----------------------------------------------------------
 ```
 
-1. Open a browser, to API in browser to test:
+4. Optional: If you plan to edit the UI, open up another terminal and navigate to the same java_spilled directory. Type the following command:
+
+    `yarn start`
+
+5. To reach the API, open a new browser tab, and navigate to the following URL:
 
       `http://localhost:8080/api/chuck-norris-facts`
 
