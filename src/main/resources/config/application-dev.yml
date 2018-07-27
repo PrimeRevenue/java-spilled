@@ -16,6 +16,7 @@
 logging:
     level:
         ROOT: DEBUG
+        com.primerevenue.service.aop.logging: INFO
         com.primerevenue.service: DEBUG
         io.github.jhipster: DEBUG
 

@@ -42,7 +42,7 @@ public class ChuckNorrisFactsResource {
      * @param chuckNorrisFacts the chuckNorrisFacts to create
      * @return the ResponseEntity with status 201 (Created) and with body the new chuckNorrisFacts, or with status 400 (Bad Request) if the chuckNorrisFacts has already an ID
      * @throws URISyntaxException if the Location URI syntax is incorrect
-     * @throws Exception  
+     * @throws Exception
      */
     @PostMapping("/chuck-norris-facts")
     @Timed
@@ -88,7 +88,7 @@ public class ChuckNorrisFactsResource {
     @GetMapping("/chuck-norris-facts")
     @Timed
     public List<ChuckNorrisFacts> getAllChuckNorrisFacts() {
-        log.debug("REST request to get all ChuckNorrisFacts");
+        log.info("REST request to get all ChuckNorrisFacts!");
         return chuckNorrisFactsRepository.findAll();
         }
 
