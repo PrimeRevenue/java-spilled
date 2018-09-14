@@ -28,7 +28,7 @@ The PrimeRevenue Dev TEAM will help you navigate and use Cloud9. We do not expec
 
 ## Coding exercise rules, guidelines and details.
 
-* **You are expected to use the Cloud9 development environment to for the interview.**
+* **You are expected to use the Cloud9 development environment for the interview.**
 * Ask as many questions as you need.
 * You CAN use Google, read API Docs, Javadocs or any reference material you wish.
 
