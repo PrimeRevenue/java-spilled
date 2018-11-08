@@ -35,7 +35,7 @@ have an invite for this already).
 ## Build and Run Project
 Go to project folder, and run the following commands in that terminal
 
-    `./gradlew`
+    ./gradlew
     
 Your project should be up and running now like below in the first terminal:
 
@@ -51,7 +51,7 @@ Your project should be up and running now like below in the first terminal:
 
 To reach the API, open a browser and type:
 
-      `http://localhost:8080/api/chuck-norris-facts`
+      http://localhost:8080/api/chuck-norris-facts
 
 You should see a JSON response like this:
   
@@ -74,7 +74,7 @@ You should see a JSON response like this:
 
 **Optional**: If you plan to edit the UI, open up another terminal and navigate to the same java_spilled directory. Type the following command:
 
-    `yarn start`
+    yarn start
 
 ## Next steps
 
