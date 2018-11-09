@@ -20,11 +20,11 @@ have an invite for this already).
 * The exercise is focused on developing small feature(s) against a JSON REST API endpoint in this project, "Java Spilled".
 
 ## Environment Requirement
-1. Java 8
-2. git latest is fine
-3. node v8.11.4
+1. Download and Install Java 8 [Download](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+2. git latest is fine [Download](https://git-scm.com/downloads)
+3. node v8.11.4 [Download](https://nodejs.org/en/download/)
 4. npm 5.6.0
-5. yarn latest is fine (optional, need it for UI) 
+5. yarn latest is fine [Download](https://yarnpkg.com/en/docs/install#) (optional, need it for UI) 
 
 ## Project Overview
 
